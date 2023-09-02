@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <span id="span">Total clicks: 0</span>
+    <button id="btn">Click me</button>
+  </body>
+  <script>
+    let counter = 0;
+		const button = document.getElementById("btn");
+		const span = document.getElementById("span")
+		// it is good to make getEID than queryselector!
+		// because we can't know what query select.. 
+		function handleClick()
+		{
+			counter += 1;
+			span.innerText = `Total clicks: ${counter}`;
+		}
+		button.addEventListener("click", handleClick);
+  </script>
+</html>
 
+<!-- 
+1. Create an HTML structure.
+2. Use getElementById to retrieve the desired element.
+Add an event.
+3. Write code to dynamically modify the innerText of a span element.
+However, dealing with such a large amount of code can make it very complex and lead to challenging situations.
+-->
