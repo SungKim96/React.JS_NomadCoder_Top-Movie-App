@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<body>
+	<div id="root"></div>
+</body>
+<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+<script>
+	const root = document.getElementById("root");
+	const span = React.createElement(
+    "span", 
+    {id: "sexy-span", style: {color: 'red'}}, 
+    "Hello, i'm a span"
+  );
+	ReactDOM.render(span, root);
+</script>
+</html>
+
+<!--
+JavaScript code URLs for installing React JS:
+React: https://unpkg.com/react@17.0.2/umd/react.production.min.js
+React DOM: https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js
+
+React JS - A library that makes applications highly interactive. It serves as an engine.
+React-dom - A library or package that allows you to place all React elements into the HTML body.
+ReactDOM.render() - The meaning of "render" is to take React elements and convert them into HTML to be placed. In other words, it means displaying them to the user.
+ReactDOM.render(span, location where span should go)
+-> So, it's common to create an element with id="root" in the body, and then place the span inside the root element.
+
+React.createElement("span", { properties of the span }, "content of the span")
+-> Properties can include class names, IDs, and even styles.
+-> Just a reference, no need to memorize. You won't typically use it this way.
+
+In Vanilla JS, the order is HTML -> JS.
+In React, the order is JS -> HTML.
+
+JS creates elements, and React JS translates them into HTML.
+React JS can update the HTML that needs to be updated.
+-->
