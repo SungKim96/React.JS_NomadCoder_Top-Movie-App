@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div id="root"></div>
+</body>
+<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+	const root = document.getElementById("root");
+    let counter = 0;
+  function countUp(){
+    counter = counter +1;
+    render();
+  }
+  function render(){
+    ReactDOM.render(<Container />, root);
+  }
+  
+    const Container = () => (
+      <div>
+        <h3>Total click: {counter}</h3>
+        <button onClick={countUp}>Click me!</button>
+    </div>
+    );
+ReactDOM.render(<Container />, root)
+</script>
+</html>
+
+<!--
+Vanilla JS
+<!DOCTYPE html>
+<html>
+<body>
+<span>Total clicks: 0</span>
+<button id="btn">Click me</button>
+</body>
+<script>
+let counter = 0;
+const button = document.getElementById('btn);
+cont span = document.querySelector('span');
+function handleClick(){
+counter = counter + 1;
+span.innerText = `Total clicks ${counter}`;
+}
+button.addEventListener('click', handleClick);
+</script>
+</html>
+-->
