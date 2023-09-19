@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+  margin-top: 30px;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, auto));
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.list {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list a {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(60, 58, 58);
+}
+
+.list a:hover {
+  color: rgb(245, 106, 208);
+}
