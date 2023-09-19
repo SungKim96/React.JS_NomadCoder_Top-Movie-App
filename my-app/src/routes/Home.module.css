@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 4% 0px;
+  font-size: 40px;
+}
+
+.title span {
+  margin: 10px;
+  text-shadow: 1px 1px rgb(221, 233, 230);
+  color: rgb(63, 58, 58);
+}
+
+.titleBox:hover {
+  transform: scale(1.1);
+}
+
+.titleImg {
+  padding-top: 5px;
+}
+
+.footer {
+  height: 50px;
+  padding: 0px 30px;
+  margin-top: 5%;
+}
