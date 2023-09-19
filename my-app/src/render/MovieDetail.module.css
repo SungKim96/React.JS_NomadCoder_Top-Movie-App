@@ -1,0 +1,64 @@
+.movie {
+  color: #b5acb5;
+}
+
+.background {
+  z-index: -1;
+}
+
+.background img {
+  height: 100%;
+  width: 100%;
+}
+
+/* show the container with absolute */
+.show {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index: 2;
+  width: 50%;
+  border: 2px solid snow;
+  border-radius: 10px;
+}
+
+.shortView {
+  display: flex;
+  padding: 10px 10px;
+}
+
+/* 230px 345px -> medium_cover_size */
+.shortView_Img {
+  float: left;
+  width: 230px;
+  height: 345px;
+}
+
+.shortView_letters {
+  width: 70%;
+  margin: 20px 0 0 30px;
+}
+
+.shortView_letters h3,
+.shortView_letters p,
+.shortView_letters div {
+  margin: 10px;
+}
+
+.shortView_letters li {
+  list-style-type: none;
+}
+
+.descript {
+  width: 98%;
+  padding: 0 10px 10px 10px;
+}
+
+.Detail_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(50%);
+}
