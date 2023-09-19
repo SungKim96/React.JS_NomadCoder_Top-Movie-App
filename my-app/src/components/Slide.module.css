@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+}
+
+/* 920px : (230 * 4) => rendering! , 475px : 345px + letters */
+/* overflow -> hidden : so the other movie container doesn't show */
+.slide_show {
+  position: relative;
+  margin: 0 auto;
+  width: 920px;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* 2300px : (230 * 10) => slide has 10 movie container!
+  transition : move left or right slowly */
+.slides {
+  left: 0;
+  top: 0;
+  width: 2300px;
+  height: 475px;
+  display: flex;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.slides > * {
+  margin-right: 20px;
+}
+
+.controller button {
+  position: absolute;
+  top: 35%;
+}
+
+/* 
+Opacity : the degree of clearness
+*/
+.left,
+.right {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #b5acb5;
+  opacity: 0.5;
+  font-size: 44px;
+}
+
+/* cursor : cursor theme */
+.left:hover,
+.right:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.left {
+  left: 80px;
+}
+
+.right {
+  right: 80px;
+}
