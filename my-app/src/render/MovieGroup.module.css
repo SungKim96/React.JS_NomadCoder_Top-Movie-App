@@ -1,0 +1,66 @@
+.movie {
+  color: rgb(64, 60, 60);
+  display: flex;
+  justify-content: center;
+}
+
+/* flex-row : show divs in a row */
+.show {
+  display: flex;
+  margin: 10px 10px;
+  padding: 10px;
+  width: 500px;
+  height: 370px;
+  border: 2px solid #b5acb5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* float:left -> U can displace the letters
+  right side of Img */
+.Img {
+  float: left;
+  width: 230px;
+  height: 345px;
+}
+
+.letters {
+  width: 250px;
+  height: 350px;
+  padding-left: 10px;
+}
+
+.title {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title a {
+  text-decoration: none;
+  color: rgb(46, 43, 45);
+}
+
+.letters h3,
+.letters p {
+  margin: 10px;
+}
+
+/* delete the style of li
+  (ex : - 1 - 2 - 3  =>  1 2 3) */
+.letters li {
+  list-style-type: none;
+}
+
+/* word-break : Lines are separated 
+  by number of lines, not words  */
+.letters p {
+  word-break: break-all;
+  text-align: justify;
+}
+
+.summary {
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
