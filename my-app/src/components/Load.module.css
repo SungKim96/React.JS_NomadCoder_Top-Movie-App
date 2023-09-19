@@ -1,0 +1,17 @@
+.Load {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 8px;
+  animation: c1 1s linear infinite alternate;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(208, 57, 150);
+  text-shadow: 1px 1px rgb(221, 233, 230);
+}
+@keyframes c1 {
+  to {
+    opacity: 0;
+  }
+}
