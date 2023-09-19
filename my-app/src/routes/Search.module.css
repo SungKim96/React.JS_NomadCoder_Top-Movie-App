@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  padding-top: 30px;
+  color: rgb(138, 101, 138);
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, auto));
+}
+
+.list {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list a {
+  font-size: 30px;
+}
