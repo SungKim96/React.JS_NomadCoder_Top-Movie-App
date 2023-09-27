@@ -13,10 +13,10 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <span>- useState </span> <br/>
  <span>- useEffect </span>
  <li>Difference between render props & component</li>
-<li>React router</li>
- <span>- BrowserRouter</span>
- <span>- HashRouter</span>
- <span>- Dynamic Route Matching</span>
+ <li>React router</li>
+ <span>- BrowserRouter</span> <br/>
+ <span>- HashRouter</span> <br/>
+ <span>- Dynamic Route Matching</span> <br/>
  <li>Fontawesome in React</li>
 <li>React publishing</li>
 </ul>
