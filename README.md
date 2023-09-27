@@ -49,22 +49,21 @@
  <img width="394" alt="Screen Shot 2023-09-27 at 5 31 34 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/4b748115-b55b-42e2-8a50-31e5c8d0dfa1">
  <p>While the page is loading, the loading component is acquired and displayed on the screen</p>
 </div>
-<hr/>
 <h2>Files Descriptions</h2>
 <h3>Atom</h3>
-- <bold>NavList</bold>: Responsible for setting global variables
-<bold>Components</bold>
-<bold>Load</bold>: Displays a loading indicator during page loading
-<bold>Navbar</bold>: Remains fixed at the top of the screen
-<bold>Slide</bold>: Creates a sliding component for the homepage
+- NavList: Responsible for setting global variables
+<h3>Components</h3>
+Load: Displays a loading indicator during page loading <br/>
+Navbar: Remains fixed at the top of the screen <br/>
+Slide: Creates a sliding component for the homepage<br/>
 <h3>Render</h3>
-- This section contains all the rendering codes for the project
-<bold>MovieDetail</bold>: Contains code to provide comprehensive movie information
-<bold>MovieGroup</bold>: Categorizes movies into groups
-<bold>MovieSearch</bold>: Enables searching for specific movies using keywords
-<bold>MovieSlide</bold>: Generates a homepage slide
+- This section contains all the rendering codes for the project <br/>
+MovieDetail: Contains code to provide comprehensive movie information <br/>
+MovieGroup: Categorizes movies into groups <br/>
+MovieSearch: Enables searching for specific movies using keywords <br/>
+MovieSlide: Generates a homepage slide <br/>
 <h3>Routes</h3>
-**This section contains route-related codes. These codes retrieve movie data from APIs and pass it to the 'render' section for display (e.g., port)
+**This section contains route-related codes. These codes retrieve movie data from APIs and pass it to the 'render' section for display (e.g., port) <br/>
 - All the files in this section perform the same functions as those in the 'render' section, starting with "Movie..."
 <div>
 <h2>References</h2>
