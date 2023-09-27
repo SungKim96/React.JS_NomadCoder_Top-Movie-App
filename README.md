@@ -36,12 +36,12 @@
  <h3>Movies</h3>
  <img width="1366" alt="Screen Shot 2023-09-27 at 5 29 23 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/92c2f49c-a174-4867-8031-650830e04c23">
  <img width="1439" alt="Screen Shot 2023-09-27 at 5 26 32 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/282093ab-08ea-4e2e-9f2e-23574e901d1c">
- <p>- The navbar is divided by movie categories such as action, animation, comedy, romance, and sci-fi</p>
+ <p>- The navbar is divided by movie categories such as <b>action, animation, comedy, romance, and sci-fi</b></p>
 <p>- Clicking on these categories takes you to separate pages where 20 movies are listed per page</p>
 <p>- As you scroll down, there is pagination to view more movies, with a maximum of 200 pages available</p>
  <h3>Detail</h3>
 <img width="1440" alt="Screen Shot 2023-09-27 at 5 28 19 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/39db68bf-7b9f-407b-b406-171f4619c979">
- Movie Details: Title, Rating, Running Time (min), Plot
+ <b>Movie Details</b>: Title, Rating, Running Time (min), Plot
  <h3>Search</h3>
  <img width="207" alt="Screen Shot 2023-09-27 at 5 28 42 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/c08f1c25-ee2d-4598-8529-73f25ace91ad">
  <p>You can enter text into the input field on the right side of the navbar and either press Enter or click on the icon to search for movies and navigate to the corresponding page</p>
