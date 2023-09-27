@@ -13,7 +13,11 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <span>- useState </span> <br/>
  <span>- useEffect </span>
  <li>Difference between render props & component</li>
+<li>React router</li>
+ <span>- BrowserRouter</span>
+ <span>- HashRouter</span>
+ <span>- Dynamic Route Matching</span>
  <li>Fontawesome in React</li>
-<li>deploy</li>
+<li>React publishing</li>
 </ul>
 
