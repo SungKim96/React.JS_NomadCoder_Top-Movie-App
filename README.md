@@ -28,4 +28,15 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <li>Fontawesome in React</li>
 <li>React publishing</li>
 </ul>
+<div>
+<h2>Project</h2>
+ 
+</div>
+<div>
+<h2>References</h2>
+ <ul>
+  <li><a>https://nomadcoders.co/react-for-beginners</a></li>
+ </ul>
+</div>
+
 
