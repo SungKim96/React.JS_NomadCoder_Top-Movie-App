@@ -9,6 +9,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=black"/>
  <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=Recoil&logoColor=black"/>
  <img src="https://img.shields.io/badge/React router-CA4245?style=flat-square&logo=Recoil&logoColor=black"/>
+ <img src="https://img.shields.io/badge/Atom-66595C?style=flat-square&logo=Atom&logoColor=black"/>
 </div>
 <h2>What I learn</h2>
 <ul>
@@ -29,8 +30,14 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 </ul>
 <div>
 <h2>Pages/Functions</h2>
-
- 
+<h3>Home</h3>
+<p>- Slider</p>
+ <h3>Movies</h3>
+ <p>- The navbar is divided by movie categories such as action, animation, comedy, romance, and sci-fi</p>
+<p>- Clicking on these categories takes you to separate pages where 20 movies are listed per page</p>
+<p>- As you scroll down, there is pagination to view more movies, with a maximum of 200 pages available</p>
+ <h3>Detail</h3>
+ Movie Details: Title, Rating, Running Time (min), Plot
 </div>
 <div>
 <h2>References</h2>
