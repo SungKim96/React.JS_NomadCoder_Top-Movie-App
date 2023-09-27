@@ -31,18 +31,23 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <div>
 <h2>Pages/Functions</h2>
 <h3>Home</h3>
-<p>- Slider</p>
+<p>Movies are displayed in slides, categorized under genres like action, animation, comedy, romance, and sci-fi. Clicking on each movie image takes you to a detailed page where you can get information about the movie.</p>
  <h3>Movies</h3>
  <p>- The navbar is divided by movie categories such as action, animation, comedy, romance, and sci-fi</p>
 <p>- Clicking on these categories takes you to separate pages where 20 movies are listed per page</p>
 <p>- As you scroll down, there is pagination to view more movies, with a maximum of 200 pages available</p>
  <h3>Detail</h3>
  Movie Details: Title, Rating, Running Time (min), Plot
+ <h3>Search</h3>
+ <p>You can enter text into the input field on the right side of the navbar and either press Enter or click on the icon to search for movies and navigate to the corresponding page</p>
+ <h3>Load</h3>
+ <p>While the page is loading, the loading component is acquired and displayed on the screen</p>
 </div>
 <div>
 <h2>References</h2>
  <ul>
-  <li><a>https://nomadcoders.co/react-for-beginners</a></li>
+  <li>Lecture:https://nomadcoders.co/react-for-beginners></li>
+  <li>API:https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year</li>
  </ul>
 </div>
 
