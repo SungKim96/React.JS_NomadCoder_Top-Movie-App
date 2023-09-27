@@ -8,6 +8,8 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <div>
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=black"/>
+ <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=Recoil&logoColor=black"/>
+ <img src="https://img.shields.io/badge/React router-CA4245?style=flat-square&logo=Recoil&logoColor=black"/>
 </div>
 <h2>What I learn</h2>
 <ul>
@@ -22,6 +24,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <span>- BrowserRouter</span> <br/>
  <span>- HashRouter</span> <br/>
  <span>- Dynamic Route Matching</span> <br/>
+ <li>RecoilRoot</li>
  <li>Fontawesome in React</li>
 <li>React publishing</li>
 </ul>
