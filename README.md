@@ -51,17 +51,17 @@
 </div>
 <h2>Files Descriptions</h2>
 <h3>Atom</h3>
-- NavList: Responsible for setting global variables
+- <b>NavList</b>: Responsible for setting global variables
 <h3>Components</h3>
-Load: Displays a loading indicator during page loading <br/>
-Navbar: Remains fixed at the top of the screen <br/>
-Slide: Creates a sliding component for the homepage<br/>
+<b>Load</b>: Displays a loading indicator during page loading <br/>
+<b>Navbar</b>: Remains fixed at the top of the screen <br/>
+<b>Slide</b>: Creates a sliding component for the homepage<br/>
 <h3>Render</h3>
 - This section contains all the rendering codes for the project <br/>
-MovieDetail: Contains code to provide comprehensive movie information <br/>
-MovieGroup: Categorizes movies into groups <br/>
-MovieSearch: Enables searching for specific movies using keywords <br/>
-MovieSlide: Generates a homepage slide <br/>
+<b>MovieDetail</b>: Contains code to provide comprehensive movie information <br/>
+<b>MovieGroup</b>: Categorizes movies into groups <br/>
+<b>MovieSearch</b>: Enables searching for specific movies using keywords <br/>
+<b>MovieSlide</b>: Generates a homepage slide <br/>
 <h3>Routes</h3>
 **This section contains route-related codes. These codes retrieve movie data from APIs and pass it to the 'render' section for display (e.g., port) <br/>
 - All the files in this section perform the same functions as those in the 'render' section, starting with "Movie..."
