@@ -1,8 +1,7 @@
 # Making Movie App with React (Nomad Coder)
 <h2>Purpose/Goal</h2>
 <p>It is a movie recommendation app for users, built using React.js and the YTS API, that includes movies with a rating higher than 8.8. <br/>I expect to learn how to create a React website with multiple pages that fetches data from separate APIs through this project.</p> 
-<p> ☞Pusblished Movie app website: https://sungkim96.github.io/Mypage/ </p>
-<hr/>
+<p> ☞ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ </p>
 <h2>Using Skills</h2>
 <div>
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
@@ -50,6 +49,23 @@
  <img width="394" alt="Screen Shot 2023-09-27 at 5 31 34 PM" src="https://github.com/SungKim96/React.JS_NomadCoder-Top-Movie-App/assets/120751395/4b748115-b55b-42e2-8a50-31e5c8d0dfa1">
  <p>While the page is loading, the loading component is acquired and displayed on the screen</p>
 </div>
+<hr/>
+<h2>Files Descriptions</h2>
+<h3>Atom</h3>
+- <bold>NavList</bold>: Responsible for setting global variables
+<bold>Components</bold>
+<bold>Load</bold>: Displays a loading indicator during page loading
+<bold>Navbar</bold>: Remains fixed at the top of the screen
+<bold>Slide</bold>: Creates a sliding component for the homepage
+<h3>Render</h3>
+- This section contains all the rendering codes for the project
+<bold>MovieDetail</bold>: Contains code to provide comprehensive movie information
+<bold>MovieGroup</bold>: Categorizes movies into groups
+<bold>MovieSearch</bold>: Enables searching for specific movies using keywords
+<bold>MovieSlide</bold>: Generates a homepage slide
+<h3>Routes</h3>
+**This section contains route-related codes. These codes retrieve movie data from APIs and pass it to the 'render' section for display (e.g., port)
+- All the files in this section perform the same functions as those in the 'render' section, starting with "Movie..."
 <div>
 <h2>References</h2>
  <ul>
