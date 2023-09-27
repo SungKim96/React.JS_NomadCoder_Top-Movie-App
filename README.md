@@ -9,7 +9,13 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <li>Node packages for React </li>
  <li>React & React-dom</li>
  <span>- create core and connect React and DOM</span>
- <li>How to use useEffect $ useState</li>
+ <li>React Hooks</li>
+ <span>
+  <li>useState</li>
+  <li>useEffect</li>
+ </span>
+ <li>Difference between render props & component</li>
  <li>Fontawesome in React</li>
+<li>deploy</li>
 </ul>
 
