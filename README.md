@@ -1,7 +1,6 @@
 # Making Movie App with React (Nomad Coder)
 <h2>Purpose/Goal</h2>
-<p>It is a movie recommendation app for users, built using React.js and the YTS API, that includes movies with a rating higher than 8.8. <br/>I expect to learn how to create a React website with multiple pages that fetches data from separate APIs through this project.</p>
- <img width="1425" alt="Screen Shot 2023-09-25 at 3 27 30 PM" src="https://github.com/SungKim96/React.JS_NomadCoder/assets/120751395/3c82a95f-bccb-4e05-8482-2cd93f7d6581"> <br/>
+<p>It is a movie recommendation app for users, built using React.js and the YTS API, that includes movies with a rating higher than 8.8. <br/>I expect to learn how to create a React website with multiple pages that fetches data from separate APIs through this project.</p> <br/>
 Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <h2>Using Skills</h2>
 <div>
@@ -10,6 +9,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=Recoil&logoColor=black"/>
  <img src="https://img.shields.io/badge/React router-CA4245?style=flat-square&logo=Recoil&logoColor=black"/>
  <img src="https://img.shields.io/badge/Atom-66595C?style=flat-square&logo=Atom&logoColor=black"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS&logoColor=black"/>
 </div>
 <h2>What I learn</h2>
 <ul>
@@ -31,7 +31,9 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <div>
 <h2>Pages/Functions</h2>
 <h3>Home</h3>
-<p>Movies are displayed in slides, categorized under genres like action, animation, comedy, romance, and sci-fi. Clicking on each movie image takes you to a detailed page where you can get information about the movie.</p>
+  <img width="1425" alt="Screen Shot 2023-09-25 at 3 27 30 PM" src="https://github.com/SungKim96/React.JS_NomadCoder/assets/120751395/3c82a95f-bccb-4e05-8482-2cd93f7d6581">
+ <italic>Demo Image for the main page of TopCinema</italic>
+<p>Movies are displayed in slides, categorized under genres like action, animation, comedy, romance, and sci-fi. Clicking on each movie image takes you to a detailed page where you can get information about the movie</p>
  <h3>Movies</h3>
  <p>- The navbar is divided by movie categories such as action, animation, comedy, romance, and sci-fi</p>
 <p>- Clicking on these categories takes you to separate pages where 20 movies are listed per page</p>
@@ -46,8 +48,8 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <div>
 <h2>References</h2>
  <ul>
-  <li>Lecture:https://nomadcoders.co/react-for-beginners></li>
-  <li>API:https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year</li>
+  <li>Lecture:https: //nomadcoders.co/react-for-beginners</li>
+  <li>API: https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year</li>
  </ul>
 </div>
 
