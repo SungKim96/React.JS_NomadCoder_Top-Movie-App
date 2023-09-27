@@ -8,7 +8,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <ul>
  <li>Node packages for React </li>
  <li>React & React-dom</li>
- <span>-create core and connect React and DOM</span>
+ <span>- create core and connect React and DOM</span>
  <li>How to use useEffect $ useState</li>
  <li>Fontawesome in React</li>
 </ul>
