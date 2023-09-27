@@ -1,7 +1,7 @@
 # Making Movie App with React (Nomad Coder)
 <h2>Purpose/Goal</h2>
 <p>It is a movie recommendation app for users, built using React.js and the YTS API, that includes movies with a rating higher than 8.8. <br/>I expect to learn how to create a React website with multiple pages that fetches data from separate APIs through this project.</p> <br/>
-Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
+Pusblished Movie app website: https://sungkim96.github.io/Mypage/ 
 <h2>Using Skills</h2>
 <div>
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
@@ -52,7 +52,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
 <div>
 <h2>References</h2>
  <ul>
-  <li>Lecture:https: //nomadcoders.co/react-for-beginners</li>
+  <li>Lecture: https://nomadcoders.co/react-for-beginners</li>
   <li>API: https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year</li>
  </ul>
 </div>
