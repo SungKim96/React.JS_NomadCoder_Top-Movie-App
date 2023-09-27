@@ -10,7 +10,7 @@ Pusblished Movie app website: https://sungkim96.github.io/Mypage/ <br/>
  <li>React & React-dom</li>
  <span>- create core and connect React and DOM</span>
  <li>React Hooks</li>
- <span>- useState </span>
+ <span>- useState </span> <br/>
  <span>- useEffect </span>
  <li>Difference between render props & component</li>
  <li>Fontawesome in React</li>
